@@ -18,6 +18,7 @@ install:
   - if [[ $TRAVIS_PYTHON_VERSION != '2.6' ]]; then pip install pyev; fi
   - pip install -r test-requirements.txt
 
+
 services:
   - rabbitmq
   
