@@ -24,4 +24,4 @@ services:
 archive: true
 script: nosetests
 
-build_image: drydock/u14pytpls:tip
+#build_image: drydock/u14pytpls:tip
